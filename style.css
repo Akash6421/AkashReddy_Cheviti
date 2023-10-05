@@ -165,76 +165,32 @@
         height: auto;
     }
 
-
- /* Styles for typical mobile devices */
- @media all and (max-width: 750px) {
-    header {
-        padding: 5px;
-    }
-    
-    nav ul {
-        padding: 10px;
-    }
-
+/* Updated Responsive design for smaller screens */
+ @media screen and (max-width: 768px) {
     main {
-        padding: 10px;
+        padding: 10px; /* Reduce padding for smaller screens */
     }
 
-    section {
-        padding: 15px;
+    header {
+        padding: 10px; 
     }
 
-    /* Adjust font size and line height for better readability */
-    h1 {
-        font-size: 24px;
-        line-height: 1.2;
+    header img {
+        max-width: 80px; /* Reduce image size for smaller screens */
     }
 
-    h2 {
-        font-size: 20px;
-        line-height: 1.2;
+    nav ul {
+        padding: 5px; 
     }
 
-    h3 {
-        font-size: 18px;
-        line-height: 1.2;
+    .image-section {
+        flex-direction: column; 
+        align-items: center; 
     }
 
-    p, ul {
-        font-size: 16px;
-        line-height: 1.4;
-    }
-
-    /* Increase the size of links for easier tapping */
-    a {
-        font-size: 16px;
-        padding: 5px;
-    }
-
-    /* Increase the size of the footer text */
-    footer {
-        font-size: 14px;
-    }
-
-    /* Center-align text within the article on mobile */
-    article {
-        text-align: center;
-    }
-
-    /* Ensure images fit within the screen width */
-    .image img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* Increase spacing between elements */
-    section, article {
-        margin-bottom: 15px;
+    .image {
+        width: 100%; 
+        height: auto; 
+        margin-bottom: 10px; 
     }
 }
-
-
-
-
-
-   
