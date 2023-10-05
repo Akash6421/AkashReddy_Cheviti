@@ -21,7 +21,7 @@
 
     header img {
         max-width: 100%;
-        width: 500px; /* Fixed width for image containers */
+        width: 420px; /* Fixed width for image containers */
         height: auto;
        
         margin-bottom: 10px;
@@ -170,7 +170,6 @@
  @media all and (max-width: 750px) {
     header {
         padding: 5px;
-        color: aqua;
     }
     
     nav ul {
