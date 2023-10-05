@@ -1,0 +1,241 @@
+    /* Reset some default styles for consistency */
+    body, h1, h2, h3, p {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Basic styling for the website */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #000; /* Black background */
+        color: #fff; /* White text */
+    }
+
+    header {
+        background-color: black; 
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        border-bottom: 2px solid #444; 
+    }
+
+    header img {
+        max-width: 100%;
+        width: 500px; /* Fixed width for image containers */
+        height: auto;
+       
+        margin-bottom: 10px;
+    }
+    .header_image{
+        display: inline-block;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        background-color: #333; 
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+        border-top: 2px solid #444; 
+        border-bottom: 2px solid #444; 
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        transition: color 0.3s; 
+    }
+
+    nav a:hover {
+        color: #0099ff; 
+    }
+
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333; 
+        color: #fff;
+        border-top: 2px solid #444; 
+    }
+
+    /* Additional styling */
+    section {
+        padding: 20px;
+        background-color: #1a1a1a; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    section h2 {
+        color: #fff;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #444; 
+        padding-bottom: 10px;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    article {
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: #0099ff; 
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s; 
+    }
+
+    a:hover {
+        color: #0078d4; 
+    }
+
+    .papers h2 {
+        text-align: center;
+    }
+
+    /* Styling for individual paper blocks */
+    .paper {
+        text-align: center;
+        background-color: #1f1f1f; 
+        border: 1px solid whitesmoke; 
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .paper h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    .paper img{
+        width: 500px; 
+        height: auto; 
+    }
+
+    .paper p {
+        font-size: 1em;
+        line-height: 1.4;
+        color: #ccc; 
+    }
+
+    /* Styling for individual image blocks with fixed size */
+    .image-section {
+        display: flex; /* Use flexbox to create a horizontal layout */
+        gap: 20px;
+        overflow-x: auto;
+        align-items: center; 
+    }
+
+    .image {
+        display: inline-block;
+        text-align: center;
+        width: 230px; 
+        height: 230px;
+        overflow: hidden; 
+        border: 2px solid crimson; 
+        border-radius: 5px;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        
+    }
+
+    .hobby img{
+        width: 600px; /* Fixed width for image containers */
+        height: auto;
+    }
+
+
+ /* Styles for typical mobile devices */
+ @media all and (max-width: 750px) {
+    header {
+        padding: 5px;
+        color: aqua;
+    }
+    
+    nav ul {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    /* Adjust font size and line height for better readability */
+    h1 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    p, ul {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    /* Increase the size of links for easier tapping */
+    a {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    /* Increase the size of the footer text */
+    footer {
+        font-size: 14px;
+    }
+
+    /* Center-align text within the article on mobile */
+    article {
+        text-align: center;
+    }
+
+    /* Ensure images fit within the screen width */
+    .image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Increase spacing between elements */
+    section, article {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+
+   
